@@ -5,3 +5,5 @@ webdriver-manager
 pymongo
 flask
 flask-cors
+nltk
+gunicorn
