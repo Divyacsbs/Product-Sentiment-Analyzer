@@ -1,6 +1,6 @@
 from datetime import datetime
 from pymongo.errors import BulkWriteError
-from backend.database.mongo_connection import reviews_collection
+from database.mongo_connection import reviews_collection
 
 def save_reviews(reviews, product_url):
     documents = []

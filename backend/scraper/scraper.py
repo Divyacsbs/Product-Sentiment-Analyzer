@@ -5,8 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-from backend.nlp.review_analyser import analyze_reviews
-from backend.database.save_reviews import save_reviews
+from nlp.review_analyser import analyze_reviews
+from database.save_reviews import save_reviews
 
 
 # ================== DRIVER SETUP ==================

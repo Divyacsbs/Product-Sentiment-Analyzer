@@ -1,6 +1,6 @@
 from collections import Counter
 import re
-from backend.nlp.sentiment_analyser import analyze_sentiment
+from nlp.sentiment_analyser import analyze_sentiment
 
 
 def word_frequency(reviews):
