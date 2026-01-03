@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-from backend.scraper.scraper import scrape_snapdeal_reviews
-from backend.nlp.review_analyser import analyze_reviews
-from backend.database.save_reviews import save_reviews
-from backend.database.mongo_connection import reviews_collection
+from scraper.scraper import scrape_snapdeal_reviews
+from nlp.review_analyser import analyze_reviews
+from database.save_reviews import save_reviews
+from database.mongo_connection import reviews_collection
 
 app = Flask(__name__)
 CORS(app)
